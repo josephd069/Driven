@@ -56,7 +56,7 @@ export default function Home() {
                 <Card.Text className="small text-muted">
                   PGA-certified coaches and tech-driven swing analysis.
                 </Card.Text>
-                <Button size="lg" variant="success" href="https://josephd069.github.io/Driven/lessons">
+                <Button size="lg" variant="success" as={Link} to="/lessons">
                   Learn more
                 </Button>
               </Card.Body>

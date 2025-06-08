@@ -6,7 +6,6 @@ import Home     from "./pages/Home.jsx";
 import Golf from "./pages/Golf.jsx";
 import Lessons from "./pages/Lessons.jsx";
 import Fittings from "./pages/Fittings.jsx";
-import Services from "./pages/Services.jsx";
 import Book     from "./pages/Book.jsx";
 import Contact  from "./pages/Contact.jsx";
 import ScrollToTop from "./components/ScrollToTop";
@@ -22,7 +21,6 @@ export default function App() {
           <Route path="/"         element={<Home />} />
           <Route path="/golf" element={<Golf />} />
           <Route path="/lessons" element={<Lessons />} />
-          <Route path="/services" element={<Services />} />
           <Route path="/fittings" element={<Fittings />} />
           <Route path="/book"     element={<Book />} />
           <Route path="/contact"  element={<Contact />} />

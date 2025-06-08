@@ -1,5 +1,6 @@
 import { Container, Row, Col, Button, Card } from "react-bootstrap";
 import useRevealOnScroll from "../components/Fade";
+import { Link } from "react-router-dom";
 
 export default function Lessons() {
     useRevealOnScroll();

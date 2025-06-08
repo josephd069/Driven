@@ -2,6 +2,7 @@ import { Container, Row, Col, Button, Card } from "react-bootstrap";
 import course18 from "../assets/18hole.jpg";
 import course9 from "../assets/9hole.jpg";
 import Range from "../assets/DrivingRange.jpeg";
+import { Link } from "react-router-dom";
 import useRevealOnScroll from "../components/Fade";
 
 

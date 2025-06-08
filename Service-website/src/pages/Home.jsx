@@ -40,7 +40,7 @@ export default function Home() {
                   18-hole championship, 9-hole academy loop, and a pristine
                   driving range.
                 </Card.Text>
-                <Button size="lg" variant="success" href="/Driven/golf">
+                <Button size="lg" variant="success" as={Link} to="/golf">
                   Learn more
                 </Button>
               </Card.Body>
@@ -77,7 +77,7 @@ export default function Home() {
                   Precision data, brand-neutral advice, on-site build &amp;
                   adjust.
                 </Card.Text>
-                <Button size="lg" variant="success" href="/Driven/fittings">
+                <Button size="lg" variant="success" as={Link} to="/fittings">
                   Learn more
                 </Button>
               </Card.Body>

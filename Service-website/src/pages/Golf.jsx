@@ -27,7 +27,7 @@ export default function Golf() {
                     water hazards—ideal for competitive play and corporate
                     outings.
                   </Card.Text>
-                  <Button href="/Driven/book" variant="success" size="lg">
+                  <Button as={Link} to="/book" variant="success" size="lg">
                     Book now
                   </Button>
                 </Card.Body>
@@ -51,7 +51,7 @@ export default function Golf() {
                     and elevated greens—ideal for beginners or lunchtime
                     practice.
                   </Card.Text>
-                  <Button href="/Driven/book" variant="success" size="lg">
+                  <Button as={Link} to="/book" variant="success" size="lg">
                     Book now
                   </Button>
                 </Card.Body>
@@ -74,7 +74,7 @@ export default function Golf() {
                     25 covered bays with Toptracer™ technology, grass tees,
                     and short‑game practice area open year‑round.
                   </Card.Text>
-                  <Button href="/Driven/book" variant="success" size="lg">
+                  <Button as={Link} to="/book" variant="success" size="lg">
                     Book now
                   </Button>
                 </Card.Body>

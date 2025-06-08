@@ -64,7 +64,7 @@ a:hover {
 }
 
 .lesson-hero {
-  background: url('src/assets/lesson.avif') center/cover no-repeat fixed;
+  background: url('/src/assets/lesson.avif') center/cover no-repeat fixed;
   min-height: 70vh;
 }
 

@@ -21,7 +21,7 @@ export default function Lessons() {
                 faster—with proven drills, video analysis, and on‑course
                 strategy sessions.
               </p>
-              <Button variant="success" size="lg" href="/book?service=lesson">
+              <Button variant="success" size="lg" href="/Driven/book">
                 Book a Lesson
               </Button>
             </Col>
@@ -93,7 +93,7 @@ export default function Lessons() {
       <section className="cta-fitting reveal up text-white py-5 d-flex align-items-center">
         <Container className="text-center">
           <h2 className="fw-bold mb-4">Ready to transform your swing?</h2>
-          <Button variant="light" size="lg" href="/book?service=lesson">
+          <Button variant="light" size="lg" href="/Driven/book">
             Reserve Your Lesson
           </Button>
         </Container>

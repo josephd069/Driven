@@ -19,7 +19,7 @@ export default function Fittings() {
                 fitting experience pairs cutting‑edge tech with brand‑agnostic
                 expertise—so you leave with sticks built for <em>your</em> swing.
               </p>
-              <Button variant="success" size="lg" href="/book?service=fitting">
+              <Button variant="success" size="lg" href="/Driven/book">
                 Book a Fitting
               </Button>
             </Col>
@@ -91,7 +91,7 @@ export default function Fittings() {
       <section className="cta-fitting reveal up text-white py-5 d-flex align-items-center">
         <Container className="text-center">
           <h2 className="fw-bold mb-4">Ready to dial in your bag?</h2>
-          <Button variant="light" size="lg" href="/book?service=fitting">
+          <Button variant="light" size="lg" href="/Driven/book">
             Schedule Your Session
           </Button>
         </Container>

@@ -48,6 +48,12 @@ a:hover {
 .reveal.active.up {
   transform: translateX(0) translateY(0);
 }
+
+.booking-tabs .nav-link {
+  color: var(--bs-success);
+            
+}
+
 .cta-fitting {
   background: linear-gradient(135deg, #198754 0%, #146c43 100%);
 }
@@ -76,6 +82,35 @@ a:hover {
 .btn-success:hover {
   background-color: #157347;
   border-color: #146c43;
+}
+
+.navbar-center .navbar-brand {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: "Playfair Display", serif;
+  font-size: 1.75rem;
+  color: var(--bs-success);
+}
+
+.nav-green .nav-link {
+  color: var(--bs-success);
+  font-weight: 500;
+}
+
+.nav-green .nav-link.active {
+  color: var(--bs-success);
+  background-color: transparent;
+
+  border-radius: 0;
+  padding-inline: 0.5rem;
+}
+
+.nav-green .nav-link:hover {
+  color: #fff;
+  background-color: var(--bs-success);
+  border-radius: 0.25rem;
+  padding-inline: 0.5rem;
 }
 
 body {

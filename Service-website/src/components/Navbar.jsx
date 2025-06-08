@@ -11,7 +11,6 @@ export default function AppNavbar() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
-            <LinkContainer to="/services"><Nav.Link>Services</Nav.Link></LinkContainer>
             <LinkContainer to="/golf"><Nav.Link>Golf</Nav.Link></LinkContainer>
             <LinkContainer to="/lessons"><Nav.Link>Lessons</Nav.Link></LinkContainer>
             <LinkContainer to="/fittings"><Nav.Link>Fittings</Nav.Link></LinkContainer>

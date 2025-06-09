@@ -1,5 +1,9 @@
 import { Container, Row, Col, Button, Card } from "react-bootstrap";
 import useRevealOnScroll from "../components/Fade";
+import lessonsCoach from "../assets/lessons-coach.jpg";
+import lessonsPlan from "../assets/lesson-plan.jpg";
+import lessonsAnalyze from "../assets/lesson-analyze.webp";
+
 import { Link } from "react-router-dom";
 
 export default function Lessons() {
@@ -44,7 +48,7 @@ export default function Lessons() {
               </p>
             </Col>
             <Col md={6}>
-              <img src="/lessons-coach.jpg" alt="Coach giving swing advice" className="img-fluid rounded shadow" />
+              <img src={lessonsCoach} alt="Coach giving swing advice" className="img-fluid rounded shadow" />
             </Col>
           </Row>
         </Container>
@@ -64,7 +68,7 @@ export default function Lessons() {
               </p>
             </Col>
             <Col md={6}>
-              <img src="/lessons-plan.jpg" alt="Customized lesson plan" className="img-fluid rounded shadow" />
+              <img src={lessonsPlan} alt="Customized lesson plan" className="img-fluid rounded shadow" />
             </Col>
           </Row>
         </Container>
@@ -84,7 +88,7 @@ export default function Lessons() {
               </p>
             </Col>
             <Col md={6}>
-              <img src="/lessons-tech.jpg" alt="Launch monitor data" className="img-fluid rounded shadow" />
+              <img src={lessonsAnalyze} alt="Launch monitor data" className="img-fluid rounded shadow" />
             </Col>
           </Row>
         </Container>

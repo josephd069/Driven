@@ -1,6 +1,9 @@
 import { Container, Button, Row, Col, Card } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import heroImg from "../assets/gettyimages-85836947.webp"; 
+import golfImg from "../assets/home-golf.jpg"; 
+import lessonImg from "../assets/home-lesson.jpg"; 
+import fitImg from "../assets/home-fit.webp"; 
 import useRevealOnScroll from "../components/Fade";
 
 export default function Home() {
@@ -33,7 +36,7 @@ export default function Home() {
           {/* Courses */}
           <Col xs={12} md={4}>
             <Card className="h-100 shadow-sm text-center">
-              <Card.Img variant="top" src={heroImg} alt="Golf course" />
+              <Card.Img variant="top" src={golfImg} alt="Golf course" />
               <Card.Body>
                 <Card.Title className="fw-bold">Play Our Courses</Card.Title>
                 <Card.Text className="small text-muted">
@@ -50,7 +53,7 @@ export default function Home() {
           {/* Lessons */}
           <Col xs={12} md={4}>
             <Card className="h-100 shadow-sm text-center">
-              <Card.Img variant="top" src={heroImg} alt="Golf lesson" />
+              <Card.Img variant="top" src={lessonImg} alt="Golf lesson" />
               <Card.Body>
                 <Card.Title className="fw-bold">Improve with Lessons</Card.Title>
                 <Card.Text className="small text-muted">
@@ -68,7 +71,7 @@ export default function Home() {
             <Card className="h-100 shadow-sm text-center">
               <Card.Img
                 variant="top"
-                src={heroImg}
+                src={fitImg}
                 alt="Club fitting"
               />
               <Card.Body>

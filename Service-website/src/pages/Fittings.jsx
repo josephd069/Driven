@@ -1,5 +1,8 @@
 import { Container, Row, Col, Card, Button } from "react-bootstrap";
 import useRevealOnScroll from "../components/Fade";
+import fitTrack from "../assets/fit-track.jpg";
+import fitBrand from "../assets/fit-brand.jpg";
+import fitBuild from "../assets/fit-build.avif";
 import { Link } from "react-router-dom";
 
 
@@ -42,7 +45,7 @@ export default function Fittings() {
               </p>
             </Col>
             <Col md={6}>
-              <img src="/fitting-data.jpg" alt="TrackMan data screen" className="img-fluid rounded shadow" />
+              <img src={fitTrack} alt="TrackMan data screen" className="img-fluid rounded shadow" />
             </Col>
           </Row>
         </Container>
@@ -62,7 +65,7 @@ export default function Fittings() {
               </p>
             </Col>
             <Col md={6}>
-              <img src="/fitting-heads.jpg" alt="Various iron heads" className="img-fluid rounded shadow" />
+              <img src={fitBrand} alt="Various iron heads" className="img-fluid rounded shadow" />
             </Col>
           </Row>
         </Container>
@@ -82,7 +85,7 @@ export default function Fittings() {
               </p>
             </Col>
             <Col md={6}>
-              <img src="/fitting-build.jpg" alt="Club building workshop" className="img-fluid rounded shadow" />
+              <img src={fitBuild} alt="Club building workshop" className="img-fluid rounded shadow" />
             </Col>
           </Row>
         </Container>
